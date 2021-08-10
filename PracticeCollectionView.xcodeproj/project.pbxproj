@@ -14,6 +14,10 @@
 		EC65B0BB26C1251C00E35687 /* PracticeCollectionView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC65B0B926C1251C00E35687 /* PracticeCollectionView.xcdatamodeld */; };
 		EC65B0BD26C1252200E35687 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC65B0BC26C1252200E35687 /* Assets.xcassets */; };
 		EC65B0C026C1252200E35687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC65B0BE26C1252200E35687 /* LaunchScreen.storyboard */; };
+		EC65B0C926C12DE900E35687 /* SectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC65B0C726C12DE900E35687 /* SectionCollectionViewCell.swift */; };
+		EC65B0CA26C12DE900E35687 /* SectionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC65B0C826C12DE900E35687 /* SectionCollectionViewCell.xib */; };
+		EC65B0CD26C12E7D00E35687 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC65B0CB26C12E7D00E35687 /* ItemCollectionViewCell.swift */; };
+		EC65B0CE26C12E7D00E35687 /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC65B0CC26C12E7D00E35687 /* ItemCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		EC65B0BC26C1252200E35687 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC65B0BF26C1252200E35687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC65B0C126C1252200E35687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC65B0C726C12DE900E35687 /* SectionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionCollectionViewCell.swift; sourceTree = "<group>"; };
+		EC65B0C826C12DE900E35687 /* SectionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionCollectionViewCell.xib; sourceTree = "<group>"; };
+		EC65B0CB26C12E7D00E35687 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		EC65B0CC26C12E7D00E35687 /* ItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				EC65B0BE26C1252200E35687 /* LaunchScreen.storyboard */,
 				EC65B0C126C1252200E35687 /* Info.plist */,
 				EC65B0B926C1251C00E35687 /* PracticeCollectionView.xcdatamodeld */,
+				EC65B0C726C12DE900E35687 /* SectionCollectionViewCell.swift */,
+				EC65B0C826C12DE900E35687 /* SectionCollectionViewCell.xib */,
+				EC65B0CB26C12E7D00E35687 /* ItemCollectionViewCell.swift */,
+				EC65B0CC26C12E7D00E35687 /* ItemCollectionViewCell.xib */,
 			);
 			path = PracticeCollectionView;
 			sourceTree = "<group>";
@@ -130,6 +142,8 @@
 			files = (
 				EC65B0C026C1252200E35687 /* LaunchScreen.storyboard in Resources */,
 				EC65B0BD26C1252200E35687 /* Assets.xcassets in Resources */,
+				EC65B0CE26C12E7D00E35687 /* ItemCollectionViewCell.xib in Resources */,
+				EC65B0CA26C12DE900E35687 /* SectionCollectionViewCell.xib in Resources */,
 				EC65B0B826C1251C00E35687 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,7 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC65B0B526C1251C00E35687 /* ViewController.swift in Sources */,
+				EC65B0C926C12DE900E35687 /* SectionCollectionViewCell.swift in Sources */,
 				EC65B0BB26C1251C00E35687 /* PracticeCollectionView.xcdatamodeld in Sources */,
+				EC65B0CD26C12E7D00E35687 /* ItemCollectionViewCell.swift in Sources */,
 				EC65B0B126C1251C00E35687 /* AppDelegate.swift in Sources */,
 				EC65B0B326C1251C00E35687 /* SceneDelegate.swift in Sources */,
 			);
